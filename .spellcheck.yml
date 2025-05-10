@@ -1,5 +1,5 @@
 matrix:
-- name: Markdown
+- name: Markdown-And-Html
   aspell:
     lang: en
   dictionary:
