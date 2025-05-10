@@ -16,7 +16,7 @@ p.special {
     color: red;
 }
 
-div {
+div.hero-image {
   display: flex;
   justify-content: center;
 }
