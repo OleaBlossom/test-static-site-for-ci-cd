@@ -1,0 +1,17 @@
+body {
+    font-family: "Helvetica";
+    font-size: 23px;
+    line-height: 1.4;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+p.special {
+    color: red;
+}
