@@ -23,7 +23,11 @@ concurrency:
 
 jobs:
   # Single deploy job since we're just deploying
+  tests:
+    uses: ./.github/workflows/spellcheck_action.yml  # use the callable tests job to run tests
   deploy:
+    name: deploy
+    needs: [tests]
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
