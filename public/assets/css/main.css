@@ -39,8 +39,9 @@ body {
 }
 
 .img-fluid {
-    width: 49%;
+    width: 40%;
     float: left;
+    padding-right: 5%;
 }
 
 .text-container {
