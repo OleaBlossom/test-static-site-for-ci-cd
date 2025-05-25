@@ -40,7 +40,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload everything within public folder
-          path: '/public'
+          path: 'public'
           
       - name: Deploy to GitHub Pages
         id: deployment
