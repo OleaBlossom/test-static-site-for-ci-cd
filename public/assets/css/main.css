@@ -44,6 +44,11 @@ body {
     padding-right: 5%;
 }
 
+.img-fluid.right {
+    float: right;
+    padding-left: 5%;
+}
+
 .text-container {
     text-align: center;
     /* Center text */
