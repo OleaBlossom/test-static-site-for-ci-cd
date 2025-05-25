@@ -10,7 +10,7 @@ body {
 }
 
 .main-section {
-    background: url('images/hintergrund.png') no-repeat center center/cover;
+    background: url('assets/images/hintergrund.png') no-repeat center center/cover;
     height: 60vh;
     /* Adjusted height */
     display: flex;
