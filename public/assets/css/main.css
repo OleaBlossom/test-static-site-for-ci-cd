@@ -11,7 +11,8 @@ body {
 
 .main-section {
     background: url('images/hintergrund.png') no-repeat center center/cover;
-    height: 60vh; /* Adjusted height */
+    height: 60vh;
+    /* Adjusted height */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,24 +27,29 @@ body {
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    max-width: 90%; /* Prevents excessive width */
-    flex-wrap: wrap; /* Allow text to wrap */
+    max-width: 90%;
+    /* Prevents excessive width */
+    flex-wrap: wrap;
+    /* Allow text to wrap */
     text-align: center;
 }
 
-.content img {
-    max-width: 150px; /* Reduce size */
-    height: auto;
+.img-fluid {
+    width: 49%;
+    float: left;
 }
 
 .text-container {
-    text-align: center; /* Center text */
-    max-width: 80%; /* Prevents text from stretching too wide */
+    text-align: center;
+    /* Center text */
+    max-width: 80%;
+    /* Prevents text from stretching too wide */
     word-wrap: normal;
 }
 
 h1 {
-    font-size: 1.5rem; /* Reduce for better mobile fit */
+    font-size: 1.5rem;
+    /* Reduce for better mobile fit */
     font-weight: bold !important;
 }
 
@@ -53,5 +59,6 @@ h2 {
 }
 
 h3 {
-    font-size: 1rem; /* Smaller text */
+    font-size: 1rem;
+    /* Smaller text */
 }
